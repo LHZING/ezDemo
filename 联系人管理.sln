@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32505.173
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "联系人管理", "联系人管理.csproj", "{C027EB6E-66DB-46A0-BD30-E7C050A19E2A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C027EB6E-66DB-46A0-BD30-E7C050A19E2A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C027EB6E-66DB-46A0-BD30-E7C050A19E2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C027EB6E-66DB-46A0-BD30-E7C050A19E2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C027EB6E-66DB-46A0-BD30-E7C050A19E2A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {25520AC7-CCC1-472A-9EC1-7F64E5DF37C3}
+	EndGlobalSection
+EndGlobal

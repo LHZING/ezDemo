@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="myDB" Class="DataClasses1DataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="WebSettings" ConnectionString="Data Source=.;Initial Catalog=myDB;Integrated Security=True" SettingsObjectName="System.Configuration.ConfigurationManager.ConnectionStrings" SettingsPropertyName="myDBConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.通讯录1" Member="通讯录1">
+    <Type Name="通讯录1">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="姓名" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
+      <Column Name="单位" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
+      <Column Name="电话" Type="System.String" DbType="VarChar(25)" CanBeNull="true" />
+      <Column Name="QQ" Type="System.String" DbType="VarChar(25)" CanBeNull="true" />
+      <Column Name="微信" Type="System.String" DbType="VarChar(25)" CanBeNull="true" />
+      <Column Name="邮箱" Type="System.String" DbType="VarChar(25)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Function Name="dbo.模糊查询" Method="模糊查询">
+    <Parameter Name="key" Type="System.String" DbType="NVarChar(20)" />
+    <ElementType Name="模糊查询Result">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="姓名" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
+      <Column Name="单位" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
+      <Column Name="电话" Type="System.String" DbType="VarChar(25)" CanBeNull="true" />
+      <Column Name="QQ" Type="System.String" DbType="VarChar(25)" CanBeNull="true" />
+      <Column Name="微信" Type="System.String" DbType="VarChar(25)" CanBeNull="true" />
+      <Column Name="邮箱" Type="System.String" DbType="VarChar(25)" CanBeNull="true" />
+    </ElementType>
+  </Function>
+</Database>
